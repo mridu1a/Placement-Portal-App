@@ -1,0 +1,47 @@
+# Node dependencies (very large)
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Python Virtual Environments (very large)
+venv/
+backend/venv/
+.venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# SQLite Database & local configuration
+instance/
+backend/instance/
+*.db
+
+# Celery Beat schedules and logs
+celerybeat-schedule*
+backend/celerybeat-schedule*
+*.log
+
+# User Uploads (e.g. uploaded resumes)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE / Editor folders
+.vscode/
+frontend/.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
