@@ -72,7 +72,7 @@ with app.app_context():
     if not admin:
         admin_user = User(
             username='admin',
-            email='23f2004413@ds.study.iitm.ac.in',
+            email='admin@placement.com',
             password=generate_password_hash('admin123'),
             role='admin',
             is_active=True
